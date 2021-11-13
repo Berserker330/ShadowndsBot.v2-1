@@ -6,21 +6,21 @@
 ///////////////// Berserker09 \\\\\\\\\\\\\\\\\
 const
    {
-     WAConnection,
-     MessageType,
-     Presence,
-     MessageOptions,
-     Mimetype,
-     WALocationMessage,
-     WA_MESSAGE_STUB_TYPES,
-     WA_DEFAULT_EPHEMERAL,
-     ReconnectMode,
-     ProxyAgent,
-     GroupSettingChange,
-     waChatKey,
-     mentionedJid,
-     processTime,
- } = require("@adiwajshing/baileys")
+       WAConnection,
+       MessageType,
+       Presence,
+       MessageOptions,
+       Mimetype,
+       WALocationMessage,
+       WA_MESSAGE_STUB_TYPES,
+       WA_DEFAULT_EPHEMERAL,
+       ReconnectMode,
+       ProxyAgent,
+       GroupSettingChange,
+       waChatKey,
+       mentionedJid,
+       processTime,
+   } = require("@adiwajshing/baileys")
 const hx = require('hxz-api')
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
